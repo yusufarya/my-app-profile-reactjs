@@ -1,19 +1,20 @@
-// import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
-import './App.css'
-import Topbar from './component/topbar.jsx';
-import Header from './component/header.jsx';
+// import viteLogo from '/vite.svg'                                                                      
+import './App.css' 
+// import Parcial from './component/parcial/parcial.jsx';
+import Header from './component/parcial/header.jsx';
+import Topbar from './component/parcial/topbar.jsx';  
 
-function App() {
-  // const [count, setCount] = useState(0)
+function App() { 
 
+  
+  
   return (
-    <>
-    <Topbar /> 
-    <Header /> 
-    
-    </>
+    <>   
+        <Topbar/>
+        <Header />
+        <hr />
+    </>   
   )
 }
 

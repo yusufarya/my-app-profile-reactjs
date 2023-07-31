@@ -1,4 +1,4 @@
-import logoHeader from './../assets/img/header/robot1.jpg'
+import logoHeader from './../../assets/img/header/robot1.jpg'
 
 function Header() {
     return(
