@@ -1,6 +1,6 @@
-import logoHeader from './../../assets/img/header/robot1.jpg'
+import logoHeader from './../assets/img/header/robot1.jpg'
 
-function Header() {
+function Home() {
     return (
         <>
             <div className="flex justify-center mx-5">
@@ -10,4 +10,4 @@ function Header() {
     );
 }
 
-export default Header
+export default Home

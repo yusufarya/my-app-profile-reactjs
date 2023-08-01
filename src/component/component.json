@@ -1,5 +1,6 @@
 {
     "navbar" : [
+        {"name" : "home", "label" : "Home"},
         {"name" : "about", "label" : "About"},
         {"name" : "articles", "label" : "Articles"},
         {"name" : "projects", "label" : "Projects"},
@@ -7,6 +8,7 @@
     ],
 
     "title-section" : [
+        {"title" : "Home", "desc" : "lorem ipsum emet"},
         {"title" : "About", "desc" : "lorem ipsum emet"},
         {"title" : "Articles", "desc" : "lorem ipsum emet"},
         {"title" : "Projects", "desc" : "lorem ipsum emet"},
