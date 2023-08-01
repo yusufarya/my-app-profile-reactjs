@@ -1,18 +1,13 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'                                                                      
 import React from 'react';
-import './App.css'  
-import Header from './component/parcial/header.jsx';
-import Topbar from './component/parcial/topbar.jsx';  
-import About from './pages/about.jsx';
+import './App.css'   
+import Main from './component/parcial/main.jsx';
 
 function App() { 
   return (
     <React.Fragment>    
-        <Topbar/>
-        <Header /> 
-      <hr />
-      <About/>
+        <Main />
     </React.Fragment>   
   )
 } 

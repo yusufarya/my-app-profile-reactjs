@@ -1,6 +1,6 @@
 function About() {
     return(
-        <h1>About</h1>
+        <h1 className="animate-pulse">About</h1>
     )
 }
 
