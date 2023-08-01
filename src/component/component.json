@@ -1,9 +1,9 @@
 {
     "navbar" : [
-        {"id" : "about", "label" : "About"},
-        {"id" : "articles", "label" : "Articles"},
-        {"id" : "projects", "label" : "Projects"},
-        {"id" : "contact", "label" : "Contact"}
+        {"name" : "about", "label" : "About"},
+        {"name" : "articles", "label" : "Articles"},
+        {"name" : "projects", "label" : "Projects"},
+        {"name" : "contact", "label" : "Contact"}
     ],
 
     "title-section" : [
