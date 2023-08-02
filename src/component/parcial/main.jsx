@@ -44,7 +44,7 @@ function Main() {
             {tab === 'home' && <Home />}
             {tab === 'about' && <About />}
             {tab === 'articles' && <Articles />}
-            {tab === 'project' && <Project />}
+            {tab === 'projects' && <Project />}
             {tab === 'contact' && <Contact />}
         </React.Fragment>
     )
