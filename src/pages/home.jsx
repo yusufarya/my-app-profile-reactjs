@@ -1,13 +1,14 @@
 import logoHeader from './../assets/img/header/robot1.jpg'
 
 var sectionStyle = {
-    width: "100%",
+    margin: '0 auto',
+    width: "84.5%",
     height: "450px",
     display: "block",
     backgroundSize : 'cover',
     backgroundPosition : 'center',
     borderRadius: '8px',
-    // backgroundAttachment: 'fixed',
+    backgroundAttachment: 'fixed',
     backgroundImage: `url(${ logoHeader })`
   };
 
