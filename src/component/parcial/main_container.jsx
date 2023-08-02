@@ -1,5 +1,5 @@
 import React, { Fragment, useState, useTransition } from 'react';
-import Header from "./header.jsx";
+
 import componentData from '../component.json'
 import TabButton from '../tab_button.jsx';
 import Home from '../../pages/home.jsx';
@@ -23,8 +23,8 @@ function Main() {
     return (
         <React.Fragment>
             {/* <Topbar/> */}
-            <div className="flex justify-center ">
-                <div className="flex justify-center ring-2 ring-blue-50 w-1/2 h-14 rounded-md my-4 bg-gradient-to-r from-cyan-50 to-blue-50">
+            <div className="flex justify-center h-24 relative">
+                <div className="flex justify-center sticky top-1 w-1/2 h-14 rounded-md my-4 bg-gradient-to-r from-cyan-50 to-blue-50">
                     {
                         dataNavbar.map((data, idx) => {
                             return (
@@ -44,7 +44,7 @@ function Main() {
             {tab === 'home' && <Home />}
             {tab === 'about' && <About />}
             {tab === 'articles' && <Articles />}
-            {tab === 'project' && <Project />}
+            {tab === 'projects' && <Project />}
             {tab === 'contact' && <Contact />}
         </React.Fragment>
     )

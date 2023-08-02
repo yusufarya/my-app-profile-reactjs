@@ -2,7 +2,7 @@
 // import viteLogo from '/vite.svg'                                                                      
 import React from 'react';
 import './App.css'   
-import Main from './component/parcial/main.jsx';
+import Main from './component/parcial/main_container.jsx';
 
 function App() { 
   return (
