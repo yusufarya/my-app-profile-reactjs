@@ -16,9 +16,9 @@ function Topbar(props) {
     const dataNavbar = componentData['navbar']
 
     return (
-        <>
-            <div className="flex justify-center ">
-                <div className="flex justify-center w-1/2 h-14 rounded-md my-4 bg-gradient-to-r from-cyan-50 to-blue-50">
+        <> 
+            <div className=" relative ">
+                <div className="flex justify-center fixed w-1/2 h-14 rounded-md my-4 bg-gradient-to-r from-cyan-50 to-blue-50">
                     {
                         dataNavbar.map((data, idx) => {
                             return (
@@ -31,7 +31,7 @@ function Topbar(props) {
                         })
                     }
                 </div>
-            </div>
+            </div> 
         </>
     )
 }
