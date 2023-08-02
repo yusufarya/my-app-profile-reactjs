@@ -7,7 +7,7 @@ function About(props) {
     console.log(props)
     return (
         <>
-            <div data-aos="zoom-in-up"
+            <div data-aos="fade-up"
                 data-aos-offset="200"
                 data-aos-delay="50"
                 data-aos-duration="700"

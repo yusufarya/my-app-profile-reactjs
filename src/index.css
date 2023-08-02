@@ -18,6 +18,27 @@
   -webkit-text-size-adjust: 100%;
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: #ececec;
+}
+  
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #ecfeff;
+    border-radius: 5px;
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #b8f2f7;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
