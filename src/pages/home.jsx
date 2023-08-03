@@ -1,5 +1,4 @@
-import logoHeader from './../assets/img/header/robot1.jpg'
-// import hand_hi from './../assets/img/gif/hand_hi.gif'
+import logoHeader from './../assets/img/header/robot1.jpg' 
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles 
 import { Fragment, useEffect, useState } from 'react';
