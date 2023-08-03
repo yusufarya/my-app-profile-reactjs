@@ -36,7 +36,7 @@ function Main() {
                             dataNavbar.map((data, idx) => {
                                 return (
                                     <React.Fragment key={idx}>
-                                        <TabButton isActive={tab === data['name']} klick={() => selectTab(data['name'])}>
+                                        <TabButton isActive={tab === data['name']} click={() => selectTab(data['name'])}>
                                             {data['label']}
                                         </TabButton>
                                     </React.Fragment>
