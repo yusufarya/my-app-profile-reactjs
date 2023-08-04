@@ -18,7 +18,7 @@ function Topbar(props) {
     return (
         <>
             <div className="relative ">
-                <div className="z-99 flex justify-center fixed w-1/2 h-14 rounded-md my-3 bg-gradient-to-r from-cyan-50 to-blue-50">
+                <div className="z-99 flex justify-center fixed w-1/2 h-14 rounded-md my-1 lg:my-3 md:my-3 sm:my-3 bg-gradient-to-r from-cyan-50 to-blue-50">
                     {
                         dataNavbar.map((data, idx) => {
                             return (

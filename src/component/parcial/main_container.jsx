@@ -26,10 +26,10 @@ function Main() {
             {/* <Topbar/> */}
             <div className="flex justify-center h-24 relative">
 
-                <div className="grid grid-cols-3 gap-4 fixed top-0 drop-shadow-md w-2/3 h-14 rounded-md my-4 bg-gradient-to-r from-blue-50 to-cyan-50"
+                <div className="grid grid-cols-3 gap-4 fixed top-0 drop-shadow-md w-full lg:w-2/3 md:w-2/3 sm:w-2/3 h-14 rounded-md my-1 lg:my-4 md:my-4 sm:my-3 bg-gradient-to-r from-blue-50 to-cyan-50"
                     data-aos="zoom-in-up">
                     <div className="mx-4 my-4">
-                        <h3 className='font-semibold'>Yusuf Aryadilla</h3>
+                        <h3 className='font-semibold text-xs lg:text-base md:text-sm'>Yusuf Aryadilla</h3>
                     </div>
                     <div className="col-span-2 flex justify-end  ">
                         {
