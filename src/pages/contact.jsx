@@ -18,8 +18,9 @@ function Contact() {
 
     return (
         <React.Fragment>
-            <div className="isolate bg-white px-3 py-2 sm:py-3 lg:px-2" 
+            <div className="bg-white px-3 py-2 sm:py-3 lg:px-2"
                 data-aos="fade-up"
+                data-aos-offset="200"
                 data-aos-duration="700"
                 data-aos-easing="ease-in-out">
 
@@ -29,13 +30,13 @@ function Contact() {
                         Aute magna irure deserunt veniam aliqua magna enim voluptate.
                     </p>
                 </div>
-                <form action="#" method="POST" className="mx-auto mt-5 max-w-xl sm:mt-20">
-                    <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
+                <form action="#" method="POST" className="mx-auto mt-3 max-w-xl sm:mt-20">
+                    <div className="grid grid-cols-1 gap-x-8 gap-y-3 sm:grid-cols-2">
                         <div>
                             <label htmlFor="first-name" className="block text-sm font-semibold leading-6 text-gray-600">
                                 First name
                             </label>
-                            <div className="mt-2.5">
+                            <div className="mt-1">
                                 <input
                                     type="text"
                                     name="first-name"
@@ -49,7 +50,7 @@ function Contact() {
                             <label htmlFor="last-name" className="block text-sm font-semibold leading-6 text-gray-600">
                                 Last name
                             </label>
-                            <div className="mt-2.5">
+                            <div className="mt-1">
                                 <input
                                     type="text"
                                     name="last-name"
@@ -63,7 +64,7 @@ function Contact() {
                             <label htmlFor="company" className="block text-sm font-semibold leading-6 text-gray-600">
                                 Company
                             </label>
-                            <div className="mt-2.5">
+                            <div className="mt-1">
                                 <input
                                     type="text"
                                     name="company"
@@ -77,7 +78,7 @@ function Contact() {
                             <label htmlFor="email" className="block text-sm font-semibold leading-6 text-gray-600">
                                 Email
                             </label>
-                            <div className="mt-2.5">
+                            <div className="mt-1">
                                 <input
                                     type="email"
                                     name="email"
@@ -119,7 +120,7 @@ function Contact() {
                             <label htmlFor="message" className="block text-sm font-semibold leading-6 text-gray-600">
                                 Message
                             </label>
-                            <div className="mt-2.5">
+                            <div className="mt-1">
                                 <textarea
                                     name="message"
                                     id="message"

@@ -3,6 +3,7 @@ import React, { useEffect, useState, useTransition } from 'react';
 import componentData from '../component.json'
 import TabButton from '../tab_button.jsx';
 import NavContent from '../nav_content.jsx';
+import Footer from './footer.jsx';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
@@ -45,7 +46,7 @@ function Main() {
                     <div className="grid grid-rows-1 fixed top-0 drop-shadow-md w-full lg:w-2/3 md:w-2/3 sm:w-2/3 h-14 rounded-md my-1 lg:my-4 md:my-4 sm:my-3 bg-gradient-to-r from-blue-50 to-cyan-50"
                         data-aos="zoom-in-down">
                         <div className="mx-4 my-4">
-                            <h3 className='font-semibold text-xs lg:text-lg md:text-base sm:text-sm'>Yusuf Aryadilla</h3>
+                            <h3 className='font-semibold text-xs lg:text-lg md:text-base sm:text-sm'>yusufarya.my.id</h3>
                         </div>
                         <div className="flex justify-end">
                             {
@@ -66,9 +67,9 @@ function Main() {
             }
 
             {deviceType == 'Mobile' &&
-                <div className="relative flex justify-center">
-                    <div className="fixed bottom-0 bg-gradient-to-r from-blue-50 to-cyan-50 h-20 rounded-md w-full my-1">
-                        <div className="justify-center w-full mx-5 px-3">
+                <div className="relative z-index-10 flex justify-center">
+                    <div className="fixed justify-center m-auto bottom-0 bg-gradient-to-t from-blue-100 to-cyan-50 h-19 rounded-lg w-11/12 my-2 mx-2">
+                        <div className="flex justify-center w-full px-3">
 
                             {
                                 dataNavbar.map((items, idx) => {
@@ -89,6 +90,8 @@ function Main() {
 
             <br />
             <NavContent tabName={tab} />
+
+            <Footer deviceType={deviceType} />
 
         </React.Fragment >
     )

@@ -60,9 +60,9 @@ function Home() {
                             <div className='p-5 grid justify-items-center opacity-100 brightness-100 '>
                                 <br />
                                 <h1 className='font-bold text-black mt-5 sticky top-600'>
-                                    Hello! I'am Yusuf.
+                                    Hello!<span className='animate-[wiggle_1s_ease-in-out_infinite]'>👋</span>I'am Yusuf.
                                 </h1>
-                                <p className='text-justify text-black text-semibold text-xl'> Web developer who is passionate about building user-centric solutions.</p>
+                                <p className='text-justify text-black text-semibold text-xl py-3'> Web developer who is passionate about building user-centric solutions.</p>
                                 <p className='flex justify-start'> See More ...</p>
                             </div>
                         </div>
