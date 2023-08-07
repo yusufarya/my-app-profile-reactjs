@@ -18,7 +18,7 @@ function Contact() {
 
     return (
         <React.Fragment>
-            <div className="bg-white px-3 py-2 sm:py-3 lg:px-2"
+            <div className="bg-transparent px-3 py-2 sm:py-3 lg:px-2"
                 data-aos="fade-up"
                 data-aos-offset="200"
                 data-aos-duration="700"
@@ -27,7 +27,7 @@ function Contact() {
                 <div className="mx-auto max-w-1xl text-center">
                     <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-4xl">Contact</h1>
                     <p className="mt-2 text-lg leading-8 text-gray-600">
-                        Aute magna irure deserunt veniam aliqua magna enim voluptate.
+                    Ask me something here.
                     </p>
                 </div>
                 <form action="#" method="POST" className="mx-auto mt-3 max-w-xl sm:mt-20">
@@ -162,7 +162,7 @@ function Contact() {
                     <div className="mt-10">
                         <button
                             type="submit"
-                            className="block w-full rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                            className="block w-full rounded-md bg-blue-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
                         >
                             Let's talk
                         </button>
