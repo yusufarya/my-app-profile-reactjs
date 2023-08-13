@@ -41,9 +41,9 @@ function Main() {
         <React.Fragment>
             {/* <Topbar/> */}
             {deviceType == 'Desktop' &&
-                <div className="flex justify-center h-24 relative">
+                <div className="flex justify-center h-20 relative">
 
-                    <div className="grid grid-rows-1 fixed top-0 drop-shadow-md w-full lg:w-2/3 md:w-2/3 sm:w-2/3 h-14 rounded-md my-1 lg:my-4 md:my-4 sm:my-3 bg-gradient-to-r from-blue-50 to-cyan-50"
+                    <div className="grid grid-rows-1 fixed top-0 drop-shadow-sm w-full lg:w-2/3 md:w-2/3 sm:w-2/3 h-14 rounded-md my-1 lg:my-1 md:my-1 sm:my-1 bg-gradient-to-t from-gray-50 to-white-50"
                         data-aos="zoom-in-down">
                         <div className="mx-4 my-4">
                             <h3 className='font-semibold text-xs lg:text-lg md:text-base sm:text-sm'>yusufarya.my.id</h3>
@@ -67,30 +67,45 @@ function Main() {
             }
 
             {deviceType == 'Mobile' &&
-                <div className="relative z-index-10 flex justify-center">
-                    <div className="fixed justify-center m-auto bottom-0 bg-gradient-to-t from-blue-100 to-cyan-50 h-19 rounded-lg w-11/12 my-2 mx-2">
-                        <div className="flex justify-center w-full px-3">
+                <>
+                    <div className="flex justify-center h-16 relative">
 
-                            {
-                                dataNavbar.map((items, idx) => {
-                                    return (
-                                        <React.Fragment key={idx}>
-                                            <TabButton isActive={tab === items['name']} click={() => selectTab(items['name'])} deviceType={deviceType}>
-                                                {items['label']}
-                                            </TabButton>
-                                        </React.Fragment>
-                                    )
-                                })
-                            }
-
+                        <div className="grid grid-rows-1 fixed top-0 drop-shadow-sm w-full h-14 rounded-md my-0 bg-gradient-to-t from-gray-100 to-white-50"
+                            data-aos="zoom-in-down">
+                            <div className="mx-4 my-4">
+                                <h3 className='font-semibold text-xs lg:text-lg md:text-base sm:text-sm ms-4'>yusufarya.my.id</h3>
+                            </div>
                         </div>
                     </div>
-                </div>
+
+                    <div className="flex justify-center">
+                        <div className="fixed justify-center m-auto bottom-0 bg-gradient-to-b from-gray-50 to-gray-100 h-19 rounded-lg w-11/12 my-2 mx-2">
+                            <div className="flex justify-center w-full px-3">
+                                {
+                                    dataNavbar.map((items, idx) => {
+                                        return (
+                                            <React.Fragment key={idx}>
+                                                <TabButton isActive={tab === items['name']} click={() => selectTab(items['name'])} deviceType={deviceType}>
+                                                    {items['label']}
+                                                </TabButton>
+                                            </React.Fragment>
+                                        )
+                                    })
+                                }
+
+                            </div>
+                        </div>
+                    </div>
+                </>                    
             }
 
             <br />
-            <NavContent tabName={tab} />
+            <div className='mt-15 lg:mt-2 md:mt-2 flex justify-center'>
+                <NavContent tabName={tab} />
+            </div>
 
+            <br />
+            <hr className='mx-5'/>
             <Footer deviceType={deviceType} />
 
         </React.Fragment >

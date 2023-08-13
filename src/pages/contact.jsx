@@ -18,19 +18,21 @@ function Contact() {
 
     return (
         <React.Fragment>
+            
+        <div className='bg-grey-50 mx-1 px-1 lg:mx-5 lg:px-5 md:mx-5 md:px-5 sm:mx-5 sm:px-5 w-12/12 lg:w-3/4 md:w-3/4 sm:w-3/4'>
+        <h1 className="text-left mt-1 ms-3 lg:mt-0 md:mt-0 sm:mt-0 text-4xl font-bold tracking-tight text-gray-900 sm:text-4xl">Contact </h1>
             <div className="bg-transparent px-3 py-2 sm:py-3 lg:px-2"
                 data-aos="fade-up"
                 data-aos-offset="200"
                 data-aos-duration="700"
                 data-aos-easing="ease-in-out">
 
-                <div className="mx-auto max-w-1xl text-center">
-                    <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-4xl">Contact</h1>
-                    <p className="mt-2 text-lg leading-8 text-gray-600">
+                <div className="mx-auto max-w-1xl text-left"> 
+                    <p className="mt-0 text-lg leading-8 text-gray-600">
                     Ask me something here.
                     </p>
                 </div>
-                <form action="#" method="POST" className="mx-auto mt-3 max-w-xl sm:mt-20">
+                <form action="#" method="POST" className="mx-auto mt-0 max-w-xl sm:mt-5">
                     <div className="grid grid-cols-1 gap-x-8 gap-y-3 sm:grid-cols-2">
                         <div>
                             <label htmlFor="first-name" className="block text-sm font-semibold leading-6 text-gray-600">
@@ -169,6 +171,7 @@ function Contact() {
                     </div>
                 </form>
             </div>
+        </div>
         </React.Fragment>
 
     )

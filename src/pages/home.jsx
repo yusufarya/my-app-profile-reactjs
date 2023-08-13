@@ -8,7 +8,7 @@ AOS.init();
 
 var sectionStyle = {
     margin: '0 auto',
-    marginTop: `10px`,
+    marginTop: `15px`,
     width: "84.5%",
     height: "450px",
     display: "block",
@@ -23,7 +23,7 @@ var sectionStyle = {
 
 function Home() {
 
-    const [loading, setLoading] = useState(false);
+    const [loading, setLoading] = useState(true);
 
     useEffect(() => {
         return () => {
@@ -50,20 +50,21 @@ function Home() {
             }
             {!loading &&
                 <Fragment>
-                    <div className="justify-center mx-3"
+                    <div className="flex justify-center mx-0"
                         data-aos="fade-up"
                         data-aos-offset="200"
                         data-aos-delay="50"
                         data-aos-duration="700"
                         data-aos-easing="ease-in-out">
                         <div style={sectionStyle}>
-                            <div className='p-5 grid justify-items-center opacity-100 brightness-100 '>
+                            <div className='p-2 mt-5 lg:mt-3 md:mt-2 sm:mt-2 opacity-100 brightness-100 '>
                                 <br />
                                 <h1 className='font-bold text-black mt-5 sticky top-600'>
                                     Hello!<span className='animate-[wiggle_1s_ease-in-out_infinite]'>👋</span>I'am Yusuf.
                                 </h1>
                                 <p className='text-justify text-black text-semibold text-xl py-3'> Web developer who is passionate about building user-centric solutions.</p>
-                                <p className='flex justify-start'> See More ...</p>
+                                <p className='flex justify-start'><a href="/profile"> See my cv </a></p>
+                                <p className='flex justify-start'><a href="/profile"> See my resume </a></p>
                             </div>
                         </div>
                         <br />
