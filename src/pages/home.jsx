@@ -1,4 +1,4 @@
-import logoHeader from './../assets/img/header/robot1.jpg'
+// import logoHeader from './../assets/img/header/robot1.jpg'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles 
 import { Fragment, useEffect, useState } from 'react';
@@ -23,17 +23,17 @@ var sectionStyle = {
 
 function Home() {
 
-    const [loading, setLoading] = useState(true);
+    const [loading, setLoading] = useState(false);
 
     useEffect(() => {
         return () => {
-            setLoading(false)
+            setLoading(true)
         };
     }, []);
 
     return (
         <>
-            {loading &&
+            {!loading &&
                 <ContentLoader
                     speed={2}
                     width='100%'
@@ -48,9 +48,10 @@ function Home() {
 
                 </ContentLoader>
             }
-            {!loading &&
+            {loading &&
                 <Fragment>
-                    <div className="flex justify-center mx-0"
+                    <br />
+                    <div className="flex justify-center mx-0 lg:mt-0 md:mt-1 sm:mt-3 mt-5"
                         data-aos="fade-up"
                         data-aos-offset="200"
                         data-aos-delay="50"

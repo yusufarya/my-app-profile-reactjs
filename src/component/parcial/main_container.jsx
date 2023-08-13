@@ -70,8 +70,7 @@ function Main() {
                 <>
                     <div className="flex justify-center h-16 relative">
 
-                        <div className="grid grid-rows-1 fixed top-0 drop-shadow-sm w-full h-14 rounded-md my-0 bg-gradient-to-t from-gray-100 to-white-50"
-                            data-aos="zoom-in-down">
+                        <div className="grid grid-rows-1 fixed top-0 drop-shadow-sm w-full h-14 rounded-md my-0 bg-gradient-to-t bg-slate-50 to-white-50 z-10">
                             <div className="mx-4 my-4">
                                 <h3 className='font-semibold text-xs lg:text-lg md:text-base sm:text-sm ms-4'>yusufarya.my.id</h3>
                             </div>
@@ -79,7 +78,7 @@ function Main() {
                     </div>
 
                     <div className="flex justify-center">
-                        <div className="fixed justify-center m-auto bottom-0 bg-gradient-to-b from-gray-50 to-gray-100 h-19 rounded-lg w-11/12 my-2 mx-2">
+                        <div className="fixed justify-center m-auto bottom-0 bg-gradient-to-b from-gray-50 to-gray-100 h-19 rounded-lg w-11/12 my-2 mx-2 z-10 ">
                             <div className="flex justify-center w-full px-3">
                                 {
                                     dataNavbar.map((items, idx) => {
@@ -100,7 +99,7 @@ function Main() {
             }
 
             <br />
-            <div className='mt-15 lg:mt-2 md:mt-2 flex justify-center'>
+            <div className='mt-15 lg:mt-2 md:mt-2 flex justify-center z-1'>
                 <NavContent tabName={tab} />
             </div>
 

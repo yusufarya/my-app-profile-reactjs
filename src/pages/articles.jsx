@@ -51,28 +51,37 @@ function Articles() {
 
                 <div className="mt-4 h-auto">
                     <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 justify-items-center gap-10 mx-3 px-0">
-                        <div className="w-full"
+                        <div className="w-full h-auto"
+                            data-aos="fade-up"
+                            data-aos-offset="0"
+                            data-aos-duration="300">
+                            <div style={card1} className="hover:scale-105 transition ease-in duration-200 cursor-pointer object-cover"></div>
+                            <h5 className="font-bold text-gray mt-2 text-2xl">Recap 2022</h5>
+                        </div> 
+                        <div className="w-full h-auto"
                             data-aos="fade-up"
                             data-aos-offset="50"
                             data-aos-duration="500">
-                                <div style={card1}></div>
-                                <h5 className="font-bold text-gray mt-2 text-2xl">Recap 2021</h5>
+                            <div style={card1} className="hover:scale-105 transition ease-in duration-200 cursor-pointer object-cover"></div>
+                            <h5 className="font-bold text-gray mt-2 text-2xl">Recap 2021</h5>
                         </div> 
-                        <div className="w-full"
+                        <div className="w-full h-auto"
                             data-aos="fade-up"
                             data-aos-offset="80"
                             data-aos-duration="700">
-                                <div style={card2}></div>
-                                <h5 className="font-bold text-gray mt-2 text-2xl">Recap 2020</h5>
+                            <div style={card2}></div>
+                            <h5 className="font-bold text-gray mt-2 text-2xl">Recap 2020</h5>
                         </div> 
-                        <div className="w-full"
+                        <div className="w-full h-auto"
                             data-aos="fade-up"
                             data-aos-offset="100"
                             data-aos-duration="900">
-                                <div style={card3}></div>
-                                <h5 className="font-bold text-gray mt-2 text-2xl">Recap 2019</h5>
+                            <div style={card3}></div>
+                            <h5 className="font-bold text-gray mt-2 text-2xl">Recap 2019</h5>
                         </div> 
                     </div>
+                    <br />
+                    <br />
                 </div>
             </div>
         </div>

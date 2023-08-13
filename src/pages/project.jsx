@@ -10,12 +10,12 @@ function Project() {
                 
                 <div className="flex justify-center mt-4">
                     <div className="grid grid-cols-1 justify-items-center w-full gap-1 mx-3 px-0">
-                        <div className="w-full lg:w-12/12 md:w-12/12 sm:w-12/12 h-auto bg-white-50 ring-2 ring-gray-300 rounded-md my-3 py-3 px-5"
+                        <div className="w-full lg:w-12/12 md:w-12/12 sm:w-12/12 h-auto bg-white-50 ring-1 ring-cyan-800 rounded-md my-3 py-3 px-5"
                             data-aos="fade-up"
                             data-aos-offset="50"
                             data-aos-duration="500">
                             <h2 className="font-bold text-lg mb-2">Elearning</h2>
-                            <p className="text-justify font-mono">This project built with PHP CodeIgniter & javascript (jQuery)</p>
+                            <p className="text-left font-sans">This project built with PHP CodeIgniter & javascript (jQuery)</p>
                             <p className="my-2 text-sm font-mono">
                                 <a href="#" target="_blank" className="text-sky-800 ms-1">
                                     <LinkIcon className="h-5 w-5 inline" /> Watch Demo
@@ -28,12 +28,12 @@ function Project() {
                             </p>
                         </div>
 
-                        <div className="w-full lg:w-12/12 md:w-12/12 sm:w-12/12 h-auto bg-white-50 ring-2 ring-gray-300 rounded-md my-3 py-3 px-5"
+                        <div className="w-full lg:w-12/12 md:w-12/12 sm:w-12/12 h-auto bg-white-50 ring-1 ring-cyan-800 rounded-md my-3 py-3 px-5"
                             data-aos="fade-up"
                             data-aos-offset="100"
                             data-aos-duration="800">
                             <h2 className="font-bold text-lg mb-2">Elearning</h2>
-                            <p className="text-justify font-mono">This project built with PHP CodeIgniter & javascript (jQuery)</p>
+                            <p className="text-left font-sans">This project built with PHP CodeIgniter & javascript (jQuery)</p>
                             <p className="my-2 text-sm font-mono">
                                 <a href="#" target="_blank" className="text-sky-800 ms-1">
                                     <LinkIcon className="h-5 w-5 inline" /> Watch Demo
@@ -45,8 +45,8 @@ function Project() {
                                 </a>
                             </p>
                         </div>
-                        
-                        <div className="w-full lg:w-12/12 md:w-12/12 sm:w-12/12 h-auto bg-white-50 ring-2 ring-gray-300 rounded-md my-3 py-3 px-5"
+
+                        <div className="w-full lg:w-12/12 md:w-12/12 sm:w-12/12 h-auto bg-white-50 ring-1 ring-cyan-800 rounded-md my-3 py-3 px-5"
                             data-aos="fade-up"
                             data-aos-offset="150"
                             data-aos-duration="1000">

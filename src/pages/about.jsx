@@ -17,6 +17,7 @@ function About(props) {
                 <h1 className="text-left ms-3 mt-1 lg:mt-2 md:mt-2 sm:mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-4xl font-sans ">Yusuf Aryadilla</h1>
                 <br/>
                 <h1 className="text-left ms-3 mt-1 lg:mt-4 md:mt-3 sm:mt-2 text-2xl font-bold tracking-tight text-gray-900 lg:text-4xl md:text-3xl sm:text-4xl font-sans ">👋 Hi, everyone how are you ?</h1>
+                <br/>
                 <p className="mt-3 mx-3 text-base font-sans "
                     data-aos="fade-up"
                     data-aos-offset="50"
