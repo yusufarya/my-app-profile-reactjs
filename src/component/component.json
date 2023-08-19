@@ -1,30 +1,9 @@
 {
     "navbar" : [
         {"name" : "home", "label" : "Home"},
-        {"name" : "projects", "label" : "Projects"},
         {"name" : "articles", "label" : "Articles"},
         {"name" : "notes", "label" : "Notes"},
-        {"name" : "contact", "label" : "Contact"},
+        {"name" : "projects", "label" : "Projects"},
         {"name" : "about", "label" : "About"}
-    ],
-
-    "title-section" : [
-        {"title" : "Home", "desc" : "lorem ipsum emet"},
-        {"title" : "About", "desc" : "lorem ipsum emet"},
-        {"title" : "Articles", "desc" : "lorem ipsum emet"},
-        {"title" : "Projects", "desc" : "lorem ipsum emet"},
-        {"title" : "Contact", "desc" : "lorem ipsum emet"}
-    ],
-
-    "profile" : [
-        {
-            "name" : "Yusuf Aryadilla",
-            "gender" : "Male",
-            "telp" : "085219388567",
-            "email" : "yusufaryadilla29@gmail.com",
-            "place_of_birth" : "Tangerang",
-            "date_of_birth" : "29-11-2000",
-            "address" : "Kp. Kondang Desa Mekar Kondang RT/RW 005/002 Kec. Sukadiri Kab. Tangerang Prov. Banten 15330"
-        }
     ]
 }

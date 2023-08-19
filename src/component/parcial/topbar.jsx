@@ -23,7 +23,7 @@ function Topbar(props) {
                         dataNavbar.map((data, idx) => {
                             return (
                                 <React.Fragment key={idx}>
-                                    <TabButton isActive={tab === data['name']} klick={() => selectTab(data['name'])}>
+                                    <TabButton isActive={tab === data['name']} klick={() => selectTab(data['name'])} label={data['name']}>
                                         {data['label']}
                                     </TabButton>
                                 </React.Fragment>
