@@ -14,8 +14,8 @@ function Project() {
                             data-aos="fade-up"
                             data-aos-offset="50"
                             data-aos-duration="500">
-                            <h2 className="font-bold text-lg mb-2">Elearning</h2>
-                            <p className="text-left font-sans">This project built with PHP CodeIgniter & javascript (jQuery)</p>
+                            <h2 className="font-bold text-lg mb-2 text-gray-800">Elearning</h2>
+                            <p className="text-left text-gray-800 Font-PublicSans-Regular">This project built with PHP CodeIgniter & javascript (jQuery)</p>
                             <p className="my-2 text-sm font-mono">
                                 <a href="#" target="_blank" className="text-sky-800 ms-1">
                                     <LinkIcon className="h-5 w-5 inline" /> Watch Demo
@@ -32,8 +32,8 @@ function Project() {
                             data-aos="fade-up"
                             data-aos-offset="100"
                             data-aos-duration="800">
-                            <h2 className="font-bold text-lg mb-2">Elearning</h2>
-                            <p className="text-left font-sans">This project built with PHP CodeIgniter & javascript (jQuery)</p>
+                            <h2 className="font-bold text-lg mb-2 text-gray-800">Elearning</h2>
+                            <p className="text-left text-gray-800 Font-PublicSans-Regular">This project built with PHP CodeIgniter & javascript (jQuery)</p>
                             <p className="my-2 text-sm font-mono">
                                 <a href="#" target="_blank" className="text-sky-800 ms-1">
                                     <LinkIcon className="h-5 w-5 inline" /> Watch Demo

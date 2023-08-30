@@ -1,6 +1,6 @@
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles 
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 import mycv from "../../public/mycv.pdf"
 // ..
 AOS.init();

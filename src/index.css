@@ -18,6 +18,24 @@
   -webkit-text-size-adjust: 100%;
 }
 
+@font-face {
+  font-family: 'PublicSans-Regular';
+  src: url("./assets/font/PublicSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'PublicSans-Bold';
+  src: url("./assets/font/PublicSans-Bold.ttf");
+}
+
+.Font-PublicSans-Bold {
+  font-family: 'PublicSans-Bold';
+}
+
+.Font-PublicSans-Regular {
+  font-family: 'PublicSans-Regular';
+}
+
 /* width */
 ::-webkit-scrollbar {
     width: 7px;

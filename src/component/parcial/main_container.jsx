@@ -13,6 +13,9 @@ import { AiOutlineFullscreen, AiOutlineFullscreenExit } from 'react-icons/ai';
 // ..
 AOS.init();
 
+import nightIcon from '../../assets/img/logo/night.png'
+import dayIcon from '../../assets/img/logo/day.png'
+
 const dataNavbar = componentData['navbar']
 
 function Main() {
@@ -71,18 +74,45 @@ function Main() {
         }
     }
 
+    const [darkToggle, setDarkToggle] = React.useState(false)
+
+    localStorage.setItem('theme', 'dark');
+    
+    if(darkToggle) {
+        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.classList.add('dark')
+        } else {
+            document.documentElement.classList.remove('dark')
+        }
+    } else {
+        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.classList.remove('dark')
+        } else {
+            document.documentElement.classList.add('dark')
+        }
+    }
+
     return (
         <React.Fragment>
             {/* <Topbar/> */}
             {deviceType == 'Desktop' &&
                 <div className="flex justify-center h-20 relative">
 
-                    <div className="grid grid-rows-1 fixed top-0 w-full lg:w-2/3 md:w-2/3 sm:w-2/3 h-14 rounded-md my-1 lg:my-1 md:my-1 sm:my-1 bg-gradient-to-b from-gray-50 to-white "
+                    <div className="grid grid-rows-1 fixed top-0 w-full lg:w-2/3 md:w-2/3 sm:w-2/3 h-14 rounded-md my-1 lg:my-1 md:my-1 sm:my-1  dark:bg-black dark:text-white"
                         data-aos="zoom-in-down">
                         <div className="mx-4 my-4">
-                            <NavLink to={"/"} className='font-semibold text-xs lg:text-lg md:text-base sm:text-sm text-gray-900'>
+                            <NavLink to={"/"} className='font-semibold text-xs lg:text-lg md:text-base sm:text-sm text-gray-900 dark:text-slate-100'>
                                 yusufarya.my.id
                             </NavLink>
+                            <div className=' w-20 '>
+                                <button onClick={() => setDarkToggle(!darkToggle)} className='bg-transparent'> 
+                                    {darkToggle ? 
+                                    <img src={dayIcon} /> 
+                                    :
+                                    <img src={nightIcon} />
+                                    }
+                                </button> 
+                            </div>
                         </div>
                         <div className="flex justify-end">
                             {
