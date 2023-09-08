@@ -53,15 +53,15 @@ function Articles() {
         <div className='flex justify-center w-full lg:mx-0 md:mx-0 sm:mx-0 mx-0 px-0'>
             <div className='bg-grey-50 mx-1 px-1 lg:mx-0 lg:px-0 md:mx-1 md:px-1 sm:mx-5 sm:px-5 w-full lg:w-2/3 md:w-2/3 sm:w-2/3'>
 
-                <h1 className="text-left ms-3 mt-1 lg:mt-2 md:mt-2 sm:mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-4xl font-sans">Articles</h1>
-                <p className="mt-3 mx-3 text-left text-sm"
+                <h1 className="text-left ms-3 mt-1 lg:mt-2 md:mt-2 sm:mt-2 text-4xl font-bold tracking-tight text-gray-900 dark:text-slate-100 sm:text-4xl font-sans">Articles</h1>
+                <p className="mt-3 mx-3 text-left text-sm text-gray-800 dark:text-slate-200"
                     data-aos="fade-up"
                     data-aos-offset="200"
                     data-aos-delay="50"
                     data-aos-duration="700"
                     data-aos-easing="ease-in-out">This page in progress development</p>
 
-                <div className="mt-4 h-auto">
+                <div className="mt-4 h-auto text-gray-900 dark:text-slate-200">
                     <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 justify-items-center gap-10 mx-3 px-0">
                         <div className="w-full h-auto"
                             data-aos="fade-up"

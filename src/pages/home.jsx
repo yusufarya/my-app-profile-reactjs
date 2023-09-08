@@ -1,7 +1,7 @@
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles 
 // import { NavLink } from "react-router-dom";
-import mycv from "../../public/mycv.pdf"
+import mycv from "../assets/data/CV-YusufAryadilla.pdf"
 // ..
 AOS.init();
 
@@ -15,9 +15,8 @@ var sectionStyle = {
     backgroundPosition: 'center',
     borderRadius: '8px',
     backgroundAttachment: 'fixed',
-    // backgroundImage: `url(${logoHeader})`,
-    opacity: `0.7`,
-    filter: `brightness(.5)`,
+    opacity: `0.9`,
+    filter: `brightness(.8)`,
 };
 
 function Home() { 
@@ -35,10 +34,10 @@ function Home() {
                         <div style={sectionStyle}>
                             <div className='p-2 mt-5 lg:mt-3 md:mt-2 sm:mt-2 justify-start '>
                                 <br />
-                                <h1 className='font-bold text-black mt-5 sticky top-600'>
+                                <h1 className='font-bold text-gray-900 dark:text-gray-50 mt-5 sticky top-600'>
                                     Hello!<span className='animate-[wiggle_1s_ease-in-out_infinite]'>👋</span> I'am Yusuf.
                                 </h1>
-                                <p className='text-justify text-black text-semibold text-xl py-3'> Web developer who is passionate about building user-centric solutions.</p>
+                                <p className='text-justify text-gray-900 dark:text-gray-50 text-semibold text-xl py-3'> Web developer who is passionate about building user-centric solutions.</p>
                                 <p className='flex justify-start'><a href={mycv} target='blank'> see my cv... </a></p>
                                 {/* <p className='flex justify-start'><NavLink to={"/resume"}> See my resume </NavLink></p> */}
                             </div>

@@ -10,6 +10,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 import Otherpages from '../other_pages.jsx';
 import { AiOutlineFullscreen, AiOutlineFullscreenExit } from 'react-icons/ai';
+import { HiMoon, HiOutlineSun } from 'react-icons/hi';
 // ..
 AOS.init();
 
@@ -104,15 +105,6 @@ function Main() {
                             <NavLink to={"/"} className='font-semibold text-xs lg:text-lg md:text-base sm:text-sm text-gray-900 dark:text-slate-100'>
                                 yusufarya.my.id
                             </NavLink>
-                            <div className=' w-20 '>
-                                <button onClick={() => setDarkToggle(!darkToggle)} className='bg-transparent'> 
-                                    {darkToggle ? 
-                                    <img src={dayIcon} /> 
-                                    :
-                                    <img src={nightIcon} />
-                                    }
-                                </button> 
-                            </div>
                         </div>
                         <div className="flex justify-end">
                             {
@@ -126,6 +118,15 @@ function Main() {
                                     )
                                 })
                             }
+                            <div className=' my-3 '>
+                                <button onClick={() => setDarkToggle(!darkToggle)} className='bg-transparent'> 
+                                    {darkToggle ? 
+                                    <HiOutlineSun className='text-slate-100'/>
+                                    :
+                                    <HiMoon className='text-gray-900'/>
+                                    }
+                                </button> 
+                            </div>
                         </div>
                     </div>
 

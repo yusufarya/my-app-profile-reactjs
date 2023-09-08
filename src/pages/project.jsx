@@ -6,7 +6,14 @@ function Project() {
         <div className='lg:mx-4 md:mx-4 lg:px-5 md:px-4 sm:px-4 flex justify-center'>
             <div className='bg-grey-50 mx-1 px-1 lg:mx-5 lg:px-5 md:mx-4 md:px-4 sm:mx-5 sm:px-5 w-12/12 lg:w-3/4 md:w-3/4 sm:w-3/4'>
 
-                <h1 className="text-left mt-1 ms-3 lg:mt-0 md:mt-0 sm:mt-0 text-4xl font-bold tracking-tight text-gray-900 sm:text-4xl">Projects </h1>
+                <h1 className="text-left mt-1 ms-3 lg:mt-0 md:mt-0 sm:mt-0 text-4xl font-bold tracking-tight text-gray-900 dark:text-slate-100 sm:text-4xl">Projects </h1>
+                
+                <p className="mt-3 mx-3 text-left text-sm text-gray-800 dark:text-slate-200"
+                    data-aos="fade-up"
+                    data-aos-offset="200"
+                    data-aos-delay="50"
+                    data-aos-duration="700"
+                    data-aos-easing="ease-in-out">This page in progress development</p>
                 
                 <div className="flex justify-center mt-4">
                     <div className="grid grid-cols-1 justify-items-center w-full gap-1 mx-4 ">
@@ -14,8 +21,8 @@ function Project() {
                             data-aos="fade-up"
                             data-aos-offset="50"
                             data-aos-duration="500">
-                            <h2 className="font-bold text-lg mb-2 text-gray-800">Elearning</h2>
-                            <p className="text-left text-gray-800 Font-PublicSans-Regular">This project built with PHP CodeIgniter & javascript (jQuery)</p>
+                            <h2 className="font-bold text-lg mb-2 text-gray-800 dark:text-slate-100">Elearning</h2>
+                            <p className="text-left text-gray-800 dark:text-slate-100 Font-PublicSans-Regular">This project built with PHP CodeIgniter & javascript (jQuery)</p>
                             <p className="my-2 text-sm font-mono">
                                 <a href="#" target="_blank" className="text-sky-800 ms-1">
                                     <LinkIcon className="h-5 w-5 inline" /> Watch Demo
@@ -32,8 +39,8 @@ function Project() {
                             data-aos="fade-up"
                             data-aos-offset="100"
                             data-aos-duration="800">
-                            <h2 className="font-bold text-lg mb-2 text-gray-800">Elearning</h2>
-                            <p className="text-left text-gray-800 Font-PublicSans-Regular">This project built with PHP CodeIgniter & javascript (jQuery)</p>
+                            <h2 className="font-bold text-lg mb-2 text-gray-800 dark:text-slate-100">Elearning</h2>
+                            <p className="text-left text-gray-800 dark:text-slate-100 Font-PublicSans-Regular">This project built with PHP CodeIgniter & javascript (jQuery)</p>
                             <p className="my-2 text-sm font-mono">
                                 <a href="#" target="_blank" className="text-sky-800 ms-1">
                                     <LinkIcon className="h-5 w-5 inline" /> Watch Demo
