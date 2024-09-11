@@ -90,32 +90,34 @@ function Home() {
       </div>
       <div className="flex justify-center">
         <div
-          className="text-gray-800 dark:text-white justify-center mx-0 lg:mt-10 md:mt-10 sm:mt-8 mt-5 w-full lg:w-2/3 md:w-2/3 "
+          className="text-gray-800 dark:text-white mx-0 lg:mt-10 md:mt-10 sm:mt-8 mt-5 w-full lg:w-2/3 md:w-2/3"
           ref={project}
         >
-          <h3 className="text-center font-bold text-2xl mb-3">My Project </h3>
-          <div className="grid grid-cols-4 gap-4 justify-center" id="project">
-            <div id="item-project">
-              <img src={medicare}  />
+          <h3 className="text-center font-bold text-2xl mb-3">My Project</h3>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4" id="project">
+            <div id="item-project" className="p-4 bg-gray-100 rounded-lg shadow-md">
+              <img src={medicare} alt="Medicare project" className="w-full h-auto mb-2 rounded-md" />
               <h4 className="font-bold mt-3">Medicare</h4>
               <p>Aplikasi berbasis web untuk manajemen klinik</p>
-              <a href="http://yad29.my.id">See more... </a>
+              <a href="https://my.medicare.29digitec.com/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">See more...</a><br />
+              <a href="http://yad29.my.id/admin" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Visit project...</a>
             </div>
-            <div id="item-project">
-              <img src={studio}  />
+            <div id="item-project" className="p-4 bg-gray-100 rounded-lg shadow-md">
+              <img src={studio} alt="29 Studio project" className="w-full h-auto mb-2 rounded-md" />
               <h4 className="font-bold mt-3">29 Studio</h4>
               <p>Aplikasi berbasis web untuk pemesanan studio foto</p>
-              <a href="yad29.my.id">See more... </a>
+              <a href="https://elfana-studio.com/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">See more...</a>
             </div>
-            <div id="item-project">
-              <img src={uptd}  />
+            <div id="item-project" className="p-4 bg-gray-100 rounded-lg shadow-md">
+              <img src={uptd} alt="Pelatihan Dinas Kerja project" className="w-full h-auto mb-2 rounded-md" />
               <h4 className="font-bold mt-3">Pelatihan Dinas Kerja</h4>
               <p>Aplikasi berbasis web untuk pendaftaran pelatihan dinas kerja UPTD</p>
-              <a href="https://uptd-tangerangkab.com/" target="_blank">See more... </a>
+              <a href="https://uptd-tangerangkab.com/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Visit project...</a>
             </div>
           </div>
         </div>
       </div>
+
     </>
   );
 }
