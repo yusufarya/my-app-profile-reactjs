@@ -4,3 +4,11 @@
   width: 99%;
   box-sizing: border-box;
 }
+
+#project #item-project img {
+  border-top: 10px solid #aaa;
+  border-bottom: 10px solid #aaa;
+  border-left: 3px solid #aaa;
+  border-right: 3px solid #aaa;
+  border-radius: 3px;
+}

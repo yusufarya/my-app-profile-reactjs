@@ -9,16 +9,21 @@ function Structurefolder() {
                         <br/>
                 <div className="flex justify-center w-full">
                     <div className="m-2 rounded-md w-full bg-slate-600 p-4 text-white font-mono">
+                        
+                        <p> - public</p>
                         <p> - src</p>
-                        <p className="mb-2 indent-5"> - app/pages/routes</p>
-                        <p className="mb-2 indent-5"> - public</p>
-                        <p className="mb-2 indent-5"> - lib</p>
-                        <p className="mb-2 indent-9"> - assets</p>
-                        <p className="mb-2 indent-12"> - img</p>
-                        <p className="mb-2 indent-9"> - components</p>
-                        <p className="mb-2 indent-9"> - constants</p>
-                        <p className="mb-2 indent-9"> - layouts</p>
-                        <p className="mb-2 indent-9"> - utils</p>
+                        <p className="mb-2 indent-5"> - assets</p>
+                        <p className="mb-2 indent-9"> - img</p>
+                        <p className="mb-2 indent-5"> - components</p>
+                        <p className="mb-2 indent-5"> - constants</p>
+                        <p className="mb-2 indent-5"> - layouts</p>
+                        <p className="mb-2 indent-5"> - pages</p>
+                        <p className="mb-2 indent-5"> - redux</p>
+                        <p className="mb-2 indent-9"> - slice</p>
+                        <p className="mb-2 indent-5"> - routes</p>
+                        <p className="mb-2 indent-5"> - service</p>
+                        <p className="mb-2 indent-5"> - utils</p>
+
                     </div>
                     
                 </div>

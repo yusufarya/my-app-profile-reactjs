@@ -36,11 +36,11 @@ function About() {
                 <br />
                
                 <div className="social-media mx-2 pt-5 flex">
-                    <a href="" className='text-gray-800 dark:text-slate-100 mx-2'><AiFillGithub className='h-4 w-4 lg:h-6 lg:w-6 md:h-5 md:w-5' /></a>
-                    <a href="" className='text-gray-800 dark:text-slate-100 mx-2'><AiFillLinkedin className='h-4 w-4 lg:h-6 lg:w-6 md:h-5 md:w-5' /></a>
-                    <a href="" className='text-gray-800 dark:text-slate-100 mx-2'><AiOutlineInstagram className='h-4 w-4 lg:h-6 lg:w-6 md:h-5 md:w-5' /></a>
+                    <a href="https://github.com/yusufarya" target='blank' className='text-gray-800 dark:text-slate-100 mx-2'><AiFillGithub className='h-4 w-4 lg:h-6 lg:w-6 md:h-5 md:w-5' /></a>
+                    <a href="https://www.linkedin.com/in/yusuf-aryadilla" target='blank' className='text-gray-800 dark:text-slate-100 mx-2'><AiFillLinkedin className='h-4 w-4 lg:h-6 lg:w-6 md:h-5 md:w-5' /></a>
+                    <a href="https://www.instagram.com/yusuf_a.d/" target='blank' className='text-gray-800 dark:text-slate-100 mx-2'><AiOutlineInstagram className='h-4 w-4 lg:h-6 lg:w-6 md:h-5 md:w-5' /></a>
                     <a href="" className='text-gray-800 dark:text-slate-100 mx-2'><AiOutlineTwitter className='h-4 w-4 lg:h-6 lg:w-6 md:h-5 md:w-5' /></a>
-                    <a href="" className='text-gray-800 dark:text-slate-100 mx-2'><AiTwotoneMail className='h-4 w-4 lg:h-6 lg:w-6 md:h-5 md:w-5' /></a>
+                    <a href="mailto:yusufaryadilla29@gmail.com" className='text-gray-800 dark:text-slate-100 mx-2'><AiTwotoneMail className='h-4 w-4 lg:h-6 lg:w-6 md:h-5 md:w-5' /></a>
                 </div>
             </div>
         </div>
