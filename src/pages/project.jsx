@@ -13,7 +13,7 @@ function Project() {
                     data-aos-offset="200"
                     data-aos-delay="50"
                     data-aos-duration="700"
-                    data-aos-easing="ease-in-out">This page in progress development</p>
+                    data-aos-easing="ease-in-out">My project was successful</p>
                 
                 <div className="flex justify-center mt-4">
                     <div className="grid grid-cols-1 justify-items-center w-full gap-1 mx-4 ">
@@ -21,16 +21,16 @@ function Project() {
                             data-aos="fade-up"
                             data-aos-offset="50"
                             data-aos-duration="500">
-                            <h2 className="font-bold text-lg mb-2 text-gray-800 dark:text-slate-100">Elearning</h2>
-                            <p className="text-left text-gray-800 dark:text-slate-100 Font-PublicSans-Regular">This project built with PHP CodeIgniter & javascript (jQuery)</p>
+                            <h2 className="font-bold text-lg mb-2 text-gray-800 dark:text-slate-100">Medicare</h2>
+                            <p className="text-left text-gray-800 dark:text-slate-100 Font-PublicSans-Regular">Web-based application for online clinic management</p>
                             <p className="my-2 text-sm font-mono">
-                                <a href="#" target="_blank" className="text-sky-800 ms-1">
+                                <a href="https://medicare.web.id/admin" target="_blank" className="text-sky-800 ms-1">
                                     <LinkIcon className="h-5 w-5 inline" /> Watch Demo
                                 </a>
                             </p>
                             <p className="my-2 text-sm font-mono">
-                                <a href="https://github.com/yusufarya/elearning_2023.git" target="_blank" className="text-sky-800 ms-1">
-                                    <LinkIcon className="h-5 w-5 inline" /> elearning_2023.git
+                                <a href="https://my.medicare.29digitec.com/" target="_blank" className="text-sky-800 ms-1">
+                                    <LinkIcon className="h-5 w-5 inline" /> Learn Project
                                 </a>
                             </p>
                         </div>
@@ -39,26 +39,38 @@ function Project() {
                             data-aos="fade-up"
                             data-aos-offset="100"
                             data-aos-duration="800">
-                            <h2 className="font-bold text-lg mb-2 text-gray-800 dark:text-slate-100">Elearning</h2>
-                            <p className="text-left text-gray-800 dark:text-slate-100 Font-PublicSans-Regular">This project built with PHP CodeIgniter & javascript (jQuery)</p>
+                            <h2 className="font-bold text-lg mb-2 text-gray-800 dark:text-slate-100">29 Studio</h2>
+                            <p className="text-left text-gray-800 dark:text-slate-100 Font-PublicSans-Regular">Web-based application for online studio bookings</p>
                             <p className="my-2 text-sm font-mono">
-                                <a href="#" target="_blank" className="text-sky-800 ms-1">
+                                <a href="https://elfana-studio.com/" target="_blank" className="text-sky-800 ms-1">
                                     <LinkIcon className="h-5 w-5 inline" /> Watch Demo
                                 </a>
                             </p>
                             <p className="my-2 text-sm font-mono">
-                                <a href="https://github.com/yusufarya/elearning_2023.git" target="_blank" className="text-sky-800 ms-1">
-                                    <LinkIcon className="h-5 w-5 inline" /> elearning_2023.git
+                                <a href="https://elfana-studio.com/" target="_blank" className="text-sky-800 ms-1">
+                                    <LinkIcon className="h-5 w-5 inline" /> Learn Project
+                                </a>
+                            </p>
+                        </div>
+                        
+                        <div className="w-full lg:w-12/12 md:w-12/12 sm:w-12/12 h-auto bg-white-50 ring-1 ring-cyan-800 rounded-md my-3 py-3 px-5"
+                            data-aos="fade-up"
+                            data-aos-offset="100"
+                            data-aos-duration="800">
+                            <h2 className="font-bold text-lg mb-2 text-gray-800 dark:text-slate-100">Pelatihan Dinas Kerja</h2>
+                            <p className="text-left text-gray-800 dark:text-slate-100 Font-PublicSans-Regular">Web-based application for online registration for UPTD work service training</p>
+                            <p className="my-2 text-sm font-mono">
+                                <a href="https://uptd-tangerangkab.com/" target="_blank" className="text-sky-800 ms-1">
+                                    <LinkIcon className="h-5 w-5 inline" /> Watch Demo
+                                </a>
+                            </p>
+                            <p className="my-2 text-sm font-mono">
+                                <a href="https://uptd-tangerangkab.com/" target="_blank" className="text-sky-800 ms-1">
+                                    <LinkIcon className="h-5 w-5 inline" /> Learn Project
                                 </a>
                             </p>
                         </div>
 
-                        <div className="w-full lg:w-12/12 md:w-12/12 sm:w-12/12 h-auto bg-white-50 ring-1 ring-cyan-800 rounded-md my-3 py-3 px-5"
-                            data-aos="fade-up"
-                            data-aos-offset="150"
-                            data-aos-duration="1000">
-                            lorem Duis pariatur sint reprehenderit elit commodo ea in incididunt mollit. Commodo mollit Lorem nisi nostrud in exercitation sint adipisicing. Ut proident minim do consequat anim ad. Labore eu in deserunt sit ea quis.
-                        </div>
                     </div>
                 </div>
 

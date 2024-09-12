@@ -100,7 +100,7 @@ function Home() {
               <h4 className="font-bold mt-3">Medicare</h4>
               <p>Web-based application for online clinic management</p>
               <a href="https://my.medicare.29digitec.com/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">See more...</a><br />
-              <a href="http://medicare.web.id/admin" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Visit project...</a>
+              <a href="https://medicare.web.id/admin" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Visit project...</a>
             </div>
             <div id="item-project" className="p-4 dark:bg-gray-900 rounded-lg shadow-md">
               <img src={studio} alt="29 Studio project" className="w-full h-auto mb-2 rounded-md" />
