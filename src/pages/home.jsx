@@ -95,20 +95,20 @@ function Home() {
         >
           <h3 className="text-center font-bold text-2xl mb-3">My project was successful</h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4" id="project">
-            <div id="item-project" className="p-4 bg-gray-100 rounded-lg shadow-md">
+            <div id="item-project" className="p-4 dark:bg-gray-900 rounded-lg shadow-md">
               <img src={medicare} alt="Medicare project" className="w-full h-auto mb-2 rounded-md" />
               <h4 className="font-bold mt-3">Medicare</h4>
               <p>Web-based application for online clinic management</p>
               <a href="https://my.medicare.29digitec.com/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">See more...</a><br />
               <a href="http://medicare.web.id/admin" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Visit project...</a>
             </div>
-            <div id="item-project" className="p-4 bg-gray-100 rounded-lg shadow-md">
+            <div id="item-project" className="p-4 dark:bg-gray-900 rounded-lg shadow-md">
               <img src={studio} alt="29 Studio project" className="w-full h-auto mb-2 rounded-md" />
               <h4 className="font-bold mt-3">29 Studio</h4>
               <p>Web-based application for online studio bookings</p>
               <a href="https://elfana-studio.com/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Visit project...</a>
             </div>
-            <div id="item-project" className="p-4 bg-gray-100 rounded-lg shadow-md">
+            <div id="item-project" className="p-4 dark:bg-gray-900 rounded-lg shadow-md">
               <img src={uptd} alt="Pelatihan Dinas Kerja project" className="w-full h-auto mb-2 rounded-md" />
               <h4 className="font-bold mt-3">Pelatihan Dinas Kerja</h4>
               <p>Web-based application for online registration for UPTD work service training</p>
